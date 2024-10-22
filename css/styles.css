@@ -419,3 +419,34 @@ main {
     top: 30px;
     border-radius: 18px;
 }
+
+/* BMI calculator */
+.calculator-part1 {
+    width: 671px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 0 385px;
+    margin: 40px 0px;
+    padding: 0px 585px;
+}
+
+.calculator-part1 h3 {
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.calculator-part1 p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 0;
+}
