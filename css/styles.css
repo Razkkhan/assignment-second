@@ -82,7 +82,6 @@ body {
     padding: 0 10px;
 }
 
-
 .nav-links {
     width: 465px;
     height: 46px;
@@ -378,7 +377,6 @@ main {
     height: 54px;
 }
 
-
 .new-section h3 {
     font-size: 48px;
     font-weight: 900;
@@ -398,7 +396,6 @@ main {
     padding-bottom: 30px;
     margin-bottom: 10px;
 }
-
 
 .left-div {
     flex: 1;
@@ -450,6 +447,141 @@ main {
     line-height: 1.5;
     margin-top: 0;
 }
+
+/* table start here */
+.table-container {
+    width: 100%;
+    max-width: 1440px;
+    height: 487px;
+    display: flex;
+    justify-content: space-between;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #222;
+    color: white;
+    padding-left: 420px;
+}
+
+.table-color {
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 310px;
+    height: 216px;
+    left: 189px;
+    right: 941px;
+    top: 138px;
+    bottom: 133px;
+    padding-right: 100px;
+}
+
+.table-color h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-form h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 8px;
+    text-align: center;
+}
+
+.tr-color-text {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.tr-color {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.input-form {
+    flex: 1;
+    padding: 0px;
+    border-radius: 8px;
+    display: grid;
+}
+
+.input-form p {
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-fields {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-bottom: 10px;
+}
+
+.field,
+.selector {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    max-width: 200px;
+    height: 40px;
+}
+
+button {
+    border-radius: 72px;
+    background: rgb(230, 83, 60);
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 20px;
+    width: 224px;
+    height: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* our team member */
 .gallery {
@@ -531,7 +663,6 @@ main {
 footer {
     background-color: #222;
     padding: 20px;
-    /* Reduced padding */
 }
 
 footer section.balance {
@@ -543,7 +674,6 @@ footer div {
     width: calc(33.33% - 50px);
     padding: 10px;
     box-sizing: border-box;
-    /* Removed padding-left to avoid excessive left spacing */
     margin-top: 0;
 }
 
